@@ -15,6 +15,7 @@ export default function Index() {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
+        backgroundColor: "white",
         fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
       <h1 className="text-3xl font-bold underline">Hello World</h1>
       <p>This is a blank remix template, start prompting to build your app</p>
