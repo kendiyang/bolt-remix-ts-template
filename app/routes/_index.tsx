@@ -9,14 +9,7 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        backgroundColor: "white",
-        fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
+    <div className="flex h-screen flex-col items-center justify-center bg-black font-sans text-white">
       <h1 className="text-3xl font-bold underline">Hello World</h1>
       <p>This is a blank remix template, start prompting to build your app</p>
     </div>
